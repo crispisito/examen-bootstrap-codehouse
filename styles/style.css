@@ -1,0 +1,39 @@
+/** GENERAL STYLES **/
+body {
+    font-family: 'Roboto';
+}
+
+h1,h2,h3,h4,h5,h6,
+.ff-serif {
+    font-family: 'Playfair Display';
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+a:hover {
+    filter: brightness(60%);
+}
+
+a.text-white:hover {
+    filter: brightness(85%);
+}
+
+/** HEAD **/
+.head-principal {
+    background: url(https://picsum.photos/id/26/1500/300/) no-repeat left/cover ;
+}
+
+/** ARTICLES **/
+.article-img-1 {
+    background: url(https://picsum.photos/id/1/500/400) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-img-2 {
+    background: url(https://picsum.photos/id/16/500/400) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
